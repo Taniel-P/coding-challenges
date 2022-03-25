@@ -16,6 +16,7 @@ const isHappyNumber = (num) => {
         return isHappyNumber(result);
       }
       catch (error) {
+        console.log('ERR', error)
         return false;
       }
     }
@@ -28,4 +29,4 @@ const isHappyNumber = (num) => {
   }
 }
 
-console.log(isHappyNumber(7));
+console.log(isHappyNumber(8));
