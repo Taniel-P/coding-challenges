@@ -10,3 +10,5 @@ var longestCommonPrefix = function(strs) {
   }
   return strs[0]
 };
+
+console.log(longestCommonPrefix(['O118STZ013904', 'O118STZ013904']))
